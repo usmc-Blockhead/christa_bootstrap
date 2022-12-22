@@ -33,12 +33,12 @@ body {
 
 #list {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 #list2 {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 .welcome {
