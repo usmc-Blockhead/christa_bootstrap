@@ -36,6 +36,11 @@ body {
   vertical-align: middle;
 }
 
+#list2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .welcome {
   width: 75%;
 }
