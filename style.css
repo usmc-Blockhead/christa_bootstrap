@@ -7,7 +7,6 @@ body {
 
 .nav-link {
   font-size: 1.1rem !important;
-  color:fuchsia;
 }
 
 .carousel-inner img {
@@ -16,8 +15,25 @@ body {
   object-fit: contain;
 }
 
-.carousel-caption {
-  transform: translateY(-60%);
+#id {
+  text-align: center;
+}
+
+#climb {
+  top: 0;
+  bottom: auto; 
+  color: white;
+}
+
+#happy {
+  top: 0;
+  bottom: auto; 
+  color: black;
+}
+
+#skills {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .welcome {
@@ -40,6 +56,8 @@ table {
 }
 
 
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 }
@@ -50,6 +68,7 @@ table {
   }
   .carousel-caption h1 {
     font-size: 4rem;
+    font-weight: bold;
   }
   .welcome .display-4 {
     font-size: 3rem;
