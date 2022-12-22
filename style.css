@@ -15,7 +15,7 @@ body {
   object-fit: contain;
 }
 
-#id {
+.contact_info_content {
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ body {
   color: black;
 }
 
-#skills {
+#list {
   display: inline-block;
   vertical-align: middle;
 }
