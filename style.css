@@ -42,7 +42,8 @@ body {
 }
 
 .welcome {
-  width: 75%;
+  width: 90%;
+  background-color:rgb(247, 235, 247);
 }
 
 .welcome hr {
@@ -60,8 +61,37 @@ table {
   text-align: center;
 }
 
+.enlarge {
+  width: 75%;
+  height: 75%;
+  background: red;
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: width, height;
+  transition-duration: 2s;
+}
 
+.enlarge:hover {
+  width: 115%;
+  height: 115%;
+}
 
+.nav-container {
+  display: flex;
+
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-text {
+  font-size: 20px;
+}
+
+#navbarResponsive {
+  justify-content: right;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
