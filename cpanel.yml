@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/chri50817861/public_html/
+    - /bin/cp /home/chri50817861/repositories/christa_bootstrap/index.html $DEPLOYPATH
+    - /bin/cp /home/chri50817861/repositories/christa_bootstrap/styles.css $DEPLOYPATH
   
