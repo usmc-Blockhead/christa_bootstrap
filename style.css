@@ -9,12 +9,32 @@ body {
   font-size: 1.1rem !important;
 }
 
-.carousel-inner img {
+/* .carousel-inner img {
   width: 100%;
   /* height: calc(100vh - 75px); */
-  object-fit: contain;
+  /* object-fit: contain; */
+/* } */ 
+
+.carousel-img {
+  width: auto; /* Set desired width */
+  height: 800px; /* Set desired height */
+  max-height: 800px;
+  object-fit: contain; /* Possible values: cover, fill, contain, etc. */
 }
 
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.carousel-inner {
+  position: relative;
+}
+/* carouselBox {
+  position: relative;
+} */
 .caption-bottom {
   bottom: 0;
 }
@@ -91,6 +111,33 @@ table {
 
 .navbar-text {
   font-size: 20px;
+}
+
+.card-header { 
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%!important;
+  position: relative;
+  display: flex;
+  width:relative;
+  
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  margin-top: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background:none;
 }
 
 #navbarResponsive {
