@@ -52,7 +52,13 @@ body {
 #happy {
   top: 0;
   bottom: auto; 
-  color: black;
+  color: white;
+}
+
+#comfort {
+  top: 0;
+  bottom: auto; 
+  color: grey;
 }
 
 #list {
@@ -119,12 +125,17 @@ table {
   object-fit: cover;
 }
 
+
 .card {
   height: 100%!important;
-  position: relative;
+  /* position: relative;
   display: flex;
   width:relative;
-  
+  object-fit: contain; */
+}
+
+.images {
+  height: 300;
 }
 
 .card-body {
