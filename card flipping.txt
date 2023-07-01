@@ -1,0 +1,30 @@
+<div class="container-fluid pt-5">
+		<div class="row text-center pb-5">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="image-flip" onclick="this.classList.toggle('image-flip-hover');">
+					<div class="mainflip">
+						<div class="frontside">
+							<div class="cardflip" style="width:20rem;">
+								<img src="images/htmlcssjs-overview.png" class="servicesImg">
+								<h4 class="card-title mt-3">Web Fundamentals</h4>
+								<p class="card-text mt-1">As a beginner's course in web development, I have acquired a foundation in the three pillars of the Internet, which are essential for building robust web applications.
+								</p>
+							</div>
+						</div>
+						<div class="backside">
+							<div class="cardflip" style="width:20rem;">
+								<div class="item">
+									<img class="enlarge"
+										src="img/HTML,_CSS_and_JavaScript-HTML,_CSS_and_JavaScript_Course_Certificate_15257.jpg"
+										width="250" height="300" alt="Web Dev" />
+									<p>
+										Web Fundamentals Bootcamp
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
