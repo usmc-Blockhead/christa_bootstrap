@@ -5,17 +5,7 @@ body {
   color: #222;
 }
 
-/* .skills-container {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-
-.nav-link {
-  font-size: 1.1rem !important;
-}
-
+/*--- Carousel --*/
 .carousel-img {
   width: auto; /* Set desired width */
   height: 800px; /* Set desired height */
@@ -34,6 +24,7 @@ body {
   position: relative;
 }
 
+/*--- Contact/Bottom --*/
 .caption-bottom {
   bottom: 0;
 }
@@ -42,6 +33,7 @@ body {
   text-align: center;
 }
 
+/*--- Links --*/
 #climb {
   top: 0;
   bottom: auto; 
@@ -74,6 +66,11 @@ body {
   display: flex;
 }
 
+#navbarResponsive {
+  justify-content: right;
+}
+
+/*--- Headers --*/
 .welcome {
   width: 90%;
   background-color:rgb(247, 235, 247);
@@ -83,20 +80,10 @@ body {
   width: 90%;
 }
 
-hr.light {
-  background: #777;
-  width: 80%;
-}
-
-table {
-  border: 1px solid black;
-  width: 100%;
-  text-align: center;
-}
-
+/*--- Nav Bar --*/
 .nav-container {
   display: flex;
-
+  background-color:rgb(247, 235, 247);
 }
 
 .navbar-brand {
@@ -107,16 +94,26 @@ table {
   font-size: 20px;
 }
 
-
-.projects.card-header { 
-  width: 100%;
-
-  object-fit: cover;
+.nav-link {
+  font-size: 1.1rem !important;
 }
 
+/*--- Project cards --*/
 .projects.card {
 
 
+}
+
+.front.card {
+  border: none;
+}
+
+.back.card {
+
+}
+.projects.card-header { 
+  width: 100%;
+  object-fit: cover;
 }
 
 .projects-images {
@@ -143,10 +140,6 @@ table {
   justify-content:center;
   align-items: center;
   background:none;
-}
-
-#navbarResponsive {
-  justify-content: right;
 }
 
 /*---Media Queries --*/
