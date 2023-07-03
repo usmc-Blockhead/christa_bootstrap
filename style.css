@@ -298,6 +298,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transition: 1s;
   transform-style: preserve-3d;
   position: relative;
+
   }
   
   .frontside, .backside {
@@ -335,8 +336,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transform: rotateY(-180deg);
   }
   
-  .card, .card-img-top {
+  .card {
+    height: 500px;
+  }
+  
+  .card-img-top {
   border-radius: 0;
+  
   }
 
 /* <!--- button --> */
