@@ -107,34 +107,37 @@ table {
   font-size: 20px;
 }
 
-.card-header { 
+
+.projects.card-header { 
   width: 100%;
-  height: 200px;
+
   object-fit: cover;
 }
 
-.card {
-  height: 100%!important;
-  /* position: relative;
-  display: flex;
-  width:relative;
-  object-fit: contain; */
+.projects.card {
+
+
 }
 
-.images {
-  height: 100%;
+.projects-images {
+
+  /* width: 100%;
+  display: block;
+  margin:auto;*/
+  object-fit: contain; 
+
 }
 
-.img-fluid {
-  height: 200%;
+.projects-img-fluid {
+
 }
 
-.card-body {
+.projects.card-body {
   display: flex;
   flex-direction: column;
 }
 
-.card-footer {
+.projects.card-footer {
   margin-top: auto;
   display:flex;
   justify-content:center;
@@ -282,9 +285,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   
   .image-flip {
-  margin-bottom:200px;
-  width: 300px;
-  height: 250px;
+  margin-bottom:50px;
+  width: 350px;
+  min-height: 700px;
   }
   
   .mainflip {
@@ -337,7 +340,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   
   .card {
-    height: 500px;
+    height: 700px !important;
   }
   
   .card-img-top {
@@ -373,7 +376,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s;
+  transition: all 1.0s;
 }
 
 .button1:hover::before,
@@ -396,7 +399,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s;
+  transition: all 1.0s;
   transform: scale(0) rotateY(0deg);
   opacity: 0;
 }
