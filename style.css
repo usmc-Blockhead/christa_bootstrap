@@ -331,10 +331,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
   }
-  
-  .card {
+
+  /* .card {
     height: 700px !important;
-  }
+  } */
   
   .card-img-top {
   border-radius: 0;
