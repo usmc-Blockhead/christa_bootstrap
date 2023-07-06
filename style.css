@@ -104,13 +104,7 @@ body {
 
 }
 
-.front.card {
-  border: none;
-}
 
-.back.card {
-
-}
 .projects.card-header { 
   width: 100%;
   object-fit: cover;
@@ -336,6 +330,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
     height: 700px !important;
   }
   
+  .front.card {
+  border: none;
+}
+
+.back.card {
+
+}
   .card-img-top {
   border-radius: 0;
   
@@ -348,7 +349,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   text-decoration: none;
   letter-spacing: 4px;
   color: transparent;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: 18px;
   position: relative;
   font-family: inherit;
