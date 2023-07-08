@@ -5,6 +5,10 @@ body {
   color: #222;
 }
 
+.about-me-text {
+  font-size: 24px;
+  font-weight: 300;
+}
 /*--- Carousel --*/
 .carousel-img {
   width: auto; /* Set desired width */
@@ -332,9 +336,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
   
   .front.card {
   border: none;
+  height: 700px;
 }
 
 .back.card {
+  height:700px;
 
 }
   .card-img-top {
@@ -370,7 +376,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1.0s;
+  transition: all 1.5s;
 }
 
 .button1:hover::before,
@@ -393,7 +399,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1.0s;
+  transition: all 1.5s;
   transform: scale(0) rotateY(0deg);
   opacity: 0;
 }
