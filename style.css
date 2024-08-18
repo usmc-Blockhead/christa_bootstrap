@@ -37,6 +37,11 @@ body {
   text-align: center;
 }
 
+/*--- Contact/form --*/
+form-label {
+  text-align: left;
+}
+
 /*--- Links --*/
 #climb {
   top: 0;
